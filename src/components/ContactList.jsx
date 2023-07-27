@@ -42,7 +42,7 @@ const ContactList = ({ setSelectedContactId }) => {
           <td>Email</td>
           <td>Phone</td>
         </tr>
-        // Map over data
+
         {contacts.map((contact) => (
           <ContactRow
             key={contact.id}
